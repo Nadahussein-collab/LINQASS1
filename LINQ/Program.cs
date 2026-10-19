@@ -62,6 +62,14 @@ namespace LINQ
 			//	Console.WriteLine($"Name: {item.Name}, Price: {item.Price}, Status: {item.StockStatus}");
 			//}
 			#endregion
+			#region 7
+			//var indexedProducts = Source.ProductList.Select((p, index) => new { Index = index + 1, Name = p.ProductName });
+
+			//foreach (var item in indexedProducts)
+			//{
+			//	Console.WriteLine($"{item.Index}. {item.Name}");
+			//}
+			#endregion
 		}
 	}
 }
