@@ -114,7 +114,16 @@ namespace LINQ
 			//}
 			#endregion
 			#region 12
+			//string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
 
+			//var sortedWords = Arr
+			//	.OrderBy(w => w.Length)
+			//	.ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+
+			//foreach (var word in sortedWords)
+			//{
+			//	Console.WriteLine(word);
+			//}
 			#endregion
 			#region 13
 
