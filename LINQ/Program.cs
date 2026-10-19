@@ -41,6 +41,14 @@ namespace LINQ
 			//	Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
 			//}
 			#endregion
+			#region 5
+			//var availableCondiments = Source.ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Spices & Condiments");
+
+			//foreach (var product in availableCondiments)
+			//{
+			//	Console.WriteLine($"Name: {product.ProductName}, Stock: {product.UnitsInStock}, Category: {product.Category}");
+			//}
+			#endregion
 		}
 	}
 }
