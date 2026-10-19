@@ -25,6 +25,14 @@ namespace LINQ
 			//	Console.WriteLine(name);
 			//}
 			#endregion
+			#region 3
+			//var sortedProducts = Source.ProductList.OrderBy(p => p.UnitPrice);
+
+			//foreach (var product in sortedProducts)
+			//{
+			//	Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
+			//}
+			#endregion
 		}
 	}
 }
