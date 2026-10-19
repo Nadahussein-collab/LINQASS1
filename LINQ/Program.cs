@@ -17,9 +17,7 @@ namespace LINQ
 			//	Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
 			//}
 			#endregion
-			#region 2
-
-			#endregion
+			
 		}
 	}
 }
