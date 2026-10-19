@@ -105,6 +105,20 @@ namespace LINQ
 			//	Console.WriteLine($"CustomerID: {item.CustomerID}, OrderDate: {item.OrderDate.ToShortDateString()}");
 			//}
 			#endregion
+			#region 11
+			//var indexedProducts = Source.ProductList.Select((p, index) => new { Position = index + 1, Name = p.ProductName });
+
+			//foreach (var item in indexedProducts)
+			//{
+			//	Console.WriteLine($"Position: {item.Position}, Product Name: {item.Name}");
+			//}
+			#endregion
+			#region 12
+
+			#endregion
+			#region 13
+
+			#endregion
 		}
 	}
 }
