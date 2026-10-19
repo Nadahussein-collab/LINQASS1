@@ -82,12 +82,27 @@ namespace LINQ
 			#endregion
 			#region 9
 			//var beverages = Source.ProductList
-	  //         .Where(p => p.Category == "Beverages")
-	  //         .OrderByDescending(p => p.UnitsInStock);
+			//         .Where(p => p.Category == "Beverages")
+			//         .OrderByDescending(p => p.UnitsInStock);
 
 			//foreach (var product in beverages)
 			//{
 			//	Console.WriteLine($"Name: {product.ProductName}, Stock: {product.UnitsInStock}");
+			//}
+			#endregion
+			#region 10
+			//var ordersFrom1997 = from c in Source.CustomerList
+			//					 from o in c.Orders
+			//					 where o.OrderDate.Year >= 1997
+			//					 select new
+			//					 {
+			//						 c.CustomerID,
+			//						 o.OrderDate
+			//					 };
+
+			//foreach (var item in ordersFrom1997)
+			//{
+			//	Console.WriteLine($"CustomerID: {item.CustomerID}, OrderDate: {item.OrderDate.ToShortDateString()}");
 			//}
 			#endregion
 		}
