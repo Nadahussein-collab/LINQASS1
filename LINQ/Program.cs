@@ -49,6 +49,19 @@ namespace LINQ
 			//	Console.WriteLine($"Name: {product.ProductName}, Stock: {product.UnitsInStock}, Category: {product.Category}");
 			//}
 			#endregion
+			#region 6
+			//var productDetails = Source.ProductList.Select(p => new
+			//{
+			//	Name = p.ProductName,
+			//	Price = p.UnitPrice,
+			//	StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+			//});
+
+			//foreach (var item in productDetails)
+			//{
+			//	Console.WriteLine($"Name: {item.Name}, Price: {item.Price}, Status: {item.StockStatus}");
+			//}
+			#endregion
 		}
 	}
 }
