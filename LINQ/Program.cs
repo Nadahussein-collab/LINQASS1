@@ -33,6 +33,14 @@ namespace LINQ
 			//	Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
 			//}
 			#endregion
+			#region 4
+			//var productsInRange = Source.ProductList.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30);
+
+			//foreach (var product in productsInRange)
+			//{
+			//	Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
+			//}
+			#endregion
 		}
 	}
 }
