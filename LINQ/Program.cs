@@ -17,7 +17,14 @@ namespace LINQ
 			//	Console.WriteLine($"Name: {product.ProductName}, Price: {product.UnitPrice}");
 			//}
 			#endregion
-			
+			#region 2
+			//var productNames = Source.ProductList.Select(p => p.ProductName);
+
+			//foreach (var name in productNames)
+			//{
+			//	Console.WriteLine(name);
+			//}
+			#endregion
 		}
 	}
 }
