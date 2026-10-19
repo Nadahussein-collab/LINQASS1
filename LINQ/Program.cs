@@ -126,7 +126,16 @@ namespace LINQ
 			//}
 			#endregion
 			#region 13
+			//string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
+			//var result = digits
+			//	.Where(d => d.Length > 1 && d[1] == 'i')
+			//	.Reverse();
+
+			//foreach (var digit in result)
+			//{
+			//	Console.WriteLine(digit);
+			//}
 			#endregion
 		}
 	}
